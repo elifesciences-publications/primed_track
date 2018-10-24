@@ -1,5 +1,5 @@
-function bsseLineageTracerCorrectRotationAroundReferenceFrameAxis(aImarisId)
-%  Reorient a reference frame to standard orientation [0 1 0]
+function bssePrimedTrackCorrectRotationAroundReferenceFrameAxis(aImarisId)
+% Reorient a reference frame to standard orientation [0 1 0]
 %
 % Code for the paper:
 %
@@ -17,9 +17,9 @@ function bsseLineageTracerCorrectRotationAroundReferenceFrameAxis(aImarisId)
 %    <CustomTools>
 %      <Menu>
 %       <Submenu name="BSSE">
-%        <Submenu name="Lineage Tracer">
+%        <Submenu name="Primed Track">
 %         <Item name="Correct rotation around reference frame axis" icon="Matlab">
-%           <Command>MatlabXT::bsseLineageTracerCorrectRotationAroundReferenceFrameAxis(%i)</Command>
+%           <Command>MatlabXT::bssePrimedTrackCorrectRotationAroundReferenceFrameAxis(%i)</Command>
 %         </Item>
 %        </Submenu>
 %       </Submenu>

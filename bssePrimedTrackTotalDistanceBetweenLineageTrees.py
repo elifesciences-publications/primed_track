@@ -13,7 +13,7 @@
 # <CustomTools>
 #  <Menu>
 #   <Submenu name="BSSE">
-#    <Submenu name="Lineage Tracer">
+#    <Submenu name="Primed Track">
 #     <Item name="Calculate total distance between lineage trees" icon="Python">
 #      <Command>PythonXT::bsseLineageTracerTotalDistanceBetweenLineageTrees(%i)</Command>
 #     </Item>

@@ -1,5 +1,5 @@
-function bsseLineageTracerSetReferenceFrameFromSpotCoords(aImarisId)
-%  Extracts a position and an orientation and sets a reference frame.
+function bssePrimedTrackSetReferenceFrameFromSpotCoords(aImarisId)
+% Extracts a position and an orientation and sets a reference frame.
 %
 % Code for the paper:
 %
@@ -17,9 +17,9 @@ function bsseLineageTracerSetReferenceFrameFromSpotCoords(aImarisId)
 %    <CustomTools>
 %      <Menu>
 %       <Submenu name="BSSE">
-%        <Submenu name="Lineage Tracer">
+%        <Submenu name="Primed Track">
 %         <Item name="Set reference frames from cells" icon="Matlab">
-%           <Command>MatlabXT::bsseLineageTracerSetReferenceFrameFromSpotCoords(%i)</Command>
+%           <Command>MatlabXT::bssePrimedTrackSetReferenceFrameFromSpotCoords(%i)</Command>
 %         </Item>
 %        </Submenu>
 %       </Submenu>

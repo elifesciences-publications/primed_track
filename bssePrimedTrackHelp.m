@@ -1,5 +1,5 @@
-function bsseLineageTracerHelp(~)
-% Display documentation for the Lineage Tracer.
+function bssePrimedTrackHelp(~)
+% Display documentation for Primed Track.
 %
 % Code for the paper:
 %
@@ -12,9 +12,9 @@ function bsseLineageTracerHelp(~)
 %    <CustomTools>
 %      <Menu>
 %       <Submenu name="BSSE">
-%        <Submenu name="Lineage Tracer">
+%        <Submenu name="Primed Track">
 %         <Item name="Documentation" icon="Matlab">
-%          <Command>MatlabXT::bsseLineageTracerHelp(%i)</Command>
+%          <Command>MatlabXT::bssePrimedTrackHelp(%i)</Command>
 %         </Item>
 %        </Submenu>
 %       </Submenu>
@@ -23,6 +23,6 @@ function bsseLineageTracerHelp(~)
 %
 % Aaron Ponti (BSSE) 2017, 2018
 
-fname = fullfile(fileparts(mfilename('fullpath')), 'bsseLineageTracerHelp.pdf');
+fname = fullfile(fileparts(mfilename('fullpath')), 'bssePrimedTrackHelp.pdf');
 system(['start ', fname]);
 

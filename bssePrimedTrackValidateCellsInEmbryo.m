@@ -1,4 +1,4 @@
-function bsseLineageTracerValidateCellsInEmbryo(imarisApplicationId)
+function bssePrimedTrackValidateCellsInEmbryo(imarisApplicationId)
 % Validate cell segmentation in embryos.
 %
 % Code for the paper:
@@ -12,20 +12,13 @@ function bsseLineageTracerValidateCellsInEmbryo(imarisApplicationId)
 %    <CustomTools>
 %      <Menu>
 %       <Submenu name="BSSE">
-%        <Submenu name="Lineage Tracer">
+%        <Submenu name="Primed Track">
 %         <Item name="Validate cells in embryo" icon="Matlab">
-%          <Command>MatlabXT::bsseLineageTracerValidateCellsInEmbryo(%i)</Command>
+%          <Command>MatlabXT::bssePrimedTrackValidateCellsInEmbryo(%i)</Command>
 %         </Item>
 %        </Submenu>
 %       </Submenu>
 %      </Menu>
-%      <SurpassTab>
-%        <SurpassComponent name="bpSpots">
-%          <Item name=Validate Cells In Embryo" icon="Matlab">
-%            <Command>MatlabXT::bsseLineageTracerValidateCellsInEmbryo(%i)</Command>
-%          </Item>
-%        </SurpassComponent>
-%      </SurpassTab>
 %    </CustomTools>
 %
 % Aaron Ponti (BSSE) 2017, 2018
